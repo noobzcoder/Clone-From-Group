@@ -78,7 +78,7 @@ vuln = "\033[32mVuln"
 
 os.system("clear")
 print  """
-figlet NOOBZ LOGIN                                                                                                                                                                                                         
+NOOBZ LOGIN PANEL                                                                                                                                                                                                         
 """
 jalan(" \033[1;96m◈===========◈   \033[1;92mWelcome to Noobz World   \033[1;96m◈===========◈")  
 
