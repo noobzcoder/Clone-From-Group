@@ -280,9 +280,6 @@ def pilih_super():
 		print("\r\033[1;32;40m[✺] Cloning\033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 	print "   \033[1;31;48m●💔💔💔══════════════════◄►══════════════════💔💔💔●"
-	jalan('    \033[1;36;48mYour system has detected...You've detected by FBI(America)')
-	jalan('    \033[1;36;48mkeyasa laga mera majak?')
-
 	jalan('    \033[1;97Cloning please wait....')
 	print  "  \033[1;36;48m ●⚠️⚠️⚠️══════════════════◄►══════════════════⚠️⚠️⚠️●" 
 	def main(arg):
