@@ -93,9 +93,9 @@ CorrectPassword = "emon"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mEnter FB Cloner USER ID \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mTool USERKEY \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mEnter FB Cloner PASWORD \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mTool PASSWORD \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Access Granted"
             loop = 'false'
